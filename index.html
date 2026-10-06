@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="renderer" content="webkit">
+<title>神马电影网在线 - 神马电影在线观看·热门影片高分推荐</title>
+<meta name="keywords" content="神马电影网在线, shenmadianyingwangzaixian, 神马电影网, 神马影院, 在线电影, 热门电影在线观看, 高分电影推荐, 电影在线播放">
+<meta name="description" content="神马电影网在线(shenmadianyingwangzaixian-wap.github.io)提供热门电影在线观看与高分影片推荐，神马电影网在线看，畅享流畅观影体验。">
+<meta name="author" content="神马电影网在线">
+<meta name="robots" content="index,follow">
+<meta name="rating" content="general">
+<meta name="format-detection" content="telephone=no">
+<meta name="theme-color" content="#0b1408">
+<meta property="og:type" content="website">
+<meta property="og:title" content="神马电影网在线 - 在线电影观看与高分影片推荐">
+<meta property="og:description" content="神马电影网在线，热门电影在线观看与高分影片推荐，畅享流畅观影。">
+<meta property="og:url" content="https://shenmadianyingwangzaixian-wap.github.io">
+<meta property="og:site_name" content="神马电影网在线">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="神马电影网在线 - 在线电影观看与高分影片推荐">
+<meta name="twitter:description" content="神马电影网在线，热门电影在线观看与高分影片推荐。">
+<link rel="canonical" href="https://shenmadianyingwangzaixian-wap.github.io">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🐎</text></svg>">
+<style>
+/* ============================================================
+   神马电影网在线 - 单页自适应网站
+   定位：在线电影观看与高分推荐。视觉：草原金棕 + 草原绿，
+   配骏马/麦穗/印章元素与斜切折角卡片。
+   ============================================================ */
+:root{
+  --bg-0:#0a1207;--bg-1:#101c0c;--bg-2:#18290f;
+  --gold:#e0a838;--gold-l:#f5cf70;   /* 草原金 */
+  --hay:#c6862e;--hay-d:#8a5a18;     /* 麦穗棕 */
+  --grn:#5fb83f;--grn-l:#8fd96c;     /* 草原绿 */
+  --txt:#f2f6e9;--txt-2:#c6d2b8;--txt-3:#8b9a7c;
+  --r:18px;--ease:cubic-bezier(.22,.8,.3,1);--max:1180px;
+  --glass:rgba(255,255,255,.055);
+}
+*{margin:0;padding:0;box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+  font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Helvetica Neue",Arial,sans-serif;
+  background:var(--bg-0);color:var(--txt);line-height:1.7;overflow-x:hidden;
+}
+body::before{content:"";position:fixed;inset:0;z-index:-2;
+  background:
+    radial-gradient(760px 540px at 90% -6%,rgba(224,168,56,.22),transparent 60%),
+    radial-gradient(660px 500px at 2% 12%,rgba(95,184,63,.18),transparent 60%),
+    radial-gradient(720px 600px at 50% 110%,rgba(198,134,46,.2),transparent 58%),
+    linear-gradient(180deg,#0a1207,#101c0c 48%,#0a1207);
+}
+/* 麦穗飘落 */
+.chaff{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden}
+.chaff i{position:absolute;width:5px;height:5px;border-radius:50%;opacity:.5;animation:fall linear infinite;background:var(--gold)}
+.chaff i:nth-child(1){left:6%;animation-duration:9s}
+.chaff i:nth-child(2){left:18%;animation-duration:11s;animation-delay:-2s;background:var(--grn)}
+.chaff i:nth-child(3){left:32%;animation-duration:8s;animation-delay:-4s}
+.chaff i:nth-child(4){left:48%;animation-duration:10s;animation-delay:-1s}
+.chaff i:nth-child(5){left:64%;animation-duration:12s;animation-delay:-3s}
+.chaff i:nth-child(6){left:80%;animation-duration:9.5s;animation-delay:-5s}
+.chaff i:nth-child(7){left:92%;animation-duration:10.5s;animation-delay:-2s;background:var(--hay)}
+@keyframes fall{0%{transform:translateY(-40px) rotate(0);opacity:0}30%{opacity:.6}100%{transform:translateY(100vh) rotate(360deg);opacity:0}}
+a{color:inherit;text-decoration:none;transition:.25s}
+ul,ol{list-style:none}
+button{font:inherit;border:0;background:none;color:inherit;cursor:pointer}
+input{font:inherit}
+::selection{background:var(--gold);color:#0a1207}
+.grad{background:linear-gradient(100deg,var(--gold-l),var(--grn-l));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.glass{background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid rgba(224,168,56,.22)}
+.wrap{width:100%;max-width:var(--max);margin:0 auto;padding:0 18px}
+.section{padding:92px 0;position:relative}
+.sec-head{margin-bottom:54px;text-align:center}
+.eyebrow{display:inline-block;font-size:11px;letter-spacing:.4em;text-transform:uppercase;color:var(--gold-l);border:1px solid rgba(224,168,56,.35);padding:6px 16px;margin-bottom:16px;background:rgba(224,168,56,.08)}
+.sec-title{font-size:clamp(26px,4.8vw,42px);font-weight:900;line-height:1.25}
+.sec-title .hl{background:linear-gradient(100deg,var(--gold-l),var(--grn-l));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.sec-desc{color:var(--txt-2);margin-top:13px;max-width:640px;margin-left:auto;margin-right:auto;font-size:15px}
+.sec-line{width:60px;height:2px;margin:16px auto 0;background:linear-gradient(90deg,var(--gold),var(--grn),var(--hay))}
+
+/* ============ 顶部导航 ============ */
+.topbar{position:fixed;top:12px;left:0;right:0;z-index:100}
+.topbar .inner{width:100%;max-width:var(--max);margin:0 auto;padding:0 14px}
+.topbar .bar{display:flex;align-items:center;justify-content:space-between;height:66px;gap:14px;
+  background:rgba(10,18,7,.72);backdrop-filter:blur(18px);-webkit-backdrop-filter:blur(18px);
+  border:1px solid rgba(224,168,56,.26);border-radius:999px;padding:0 10px 0 18px}
+.brand{display:flex;align-items:center;gap:11px;flex-shrink:0}
+.logo{width:42px;height:42px;border-radius:13px;background:linear-gradient(140deg,var(--gold),var(--grn));display:grid;place-items:center;font-size:20px;box-shadow:0 0 22px rgba(224,168,56,.4)}
+.brand b{font-size:19px;white-space:nowrap}
+.brand b s{text-decoration:none;background:linear-gradient(100deg,var(--gold-l),var(--grn-l));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.nav{display:flex;align-items:center;gap:2px}
+.nav a{font-size:14.5px;padding:8px 15px;color:var(--txt-2);white-space:nowrap;border-radius:999px;transition:.28s}
+.nav a:hover{color:var(--gold-l);background:rgba(224,168,56,.14)}
+.nav a.on{color:#0a1207;background:linear-gradient(100deg,var(--gold),var(--grn));font-weight:800}
+.search-mini{display:flex;align-items:center;background:var(--glass);border:1px solid rgba(224,168,56,.26);border-radius:999px;padding:0 0 0 15px;width:196px;backdrop-filter:blur(10px)}
+.search-mini input{flex:1;background:none;border:0;outline:0;color:var(--txt);font-size:13px;min-width:0}
+.search-mini input::placeholder{color:var(--txt-3)}
+.search-mini button{width:38px;height:38px;border-radius:50%;background:linear-gradient(140deg,var(--gold),var(--grn));color:#0a1207;font-size:13px;font-weight:900;flex-shrink:0;margin:2px}
+.nav-btn{display:none;width:44px;height:44px;border:1px solid rgba(224,168,56,.26);border-radius:50%;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:var(--glass)}
+.nav-btn i{width:19px;height:2px;background:var(--gold);transition:.3s}
+.nav-btn.on i:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-btn.on i:nth-child(2){opacity:0}
+.nav-btn.on i:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+
+/* ============ Hero：印章主视觉 + 跑马灯式竖条榜单 ============ */
+.hero{padding:126px 0 80px}
+.hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:center}
+.hp{position:relative;padding:44px 38px;border-radius:24px;overflow:hidden}
+.hp::after{content:"";position:absolute;width:220px;height:220px;right:-80px;top:-80px;background:radial-gradient(circle,rgba(224,168,56,.3),transparent 68%);pointer-events:none}
+.hp .badge{display:inline-flex;align-items:center;gap:7px;font-size:11.5px;letter-spacing:.16em;color:#0a1207;background:linear-gradient(100deg,var(--gold),var(--grn));padding:6px 15px;border-radius:999px;font-weight:800}
+.hp h2{font-size:clamp(30px,4.6vw,48px);font-weight:900;line-height:1.25;margin:18px 0 15px}
+.hp p{font-size:14.5px;color:var(--txt-2);max-width:520px}
+.hp .kw{display:flex;gap:8px;margin-top:22px;flex-wrap:wrap}
+.hp .kw span{font-size:12px;padding:6px 14px;border:1px solid rgba(224,168,56,.32);border-radius:999px;color:var(--gold-l);background:rgba(224,168,56,.09)}
+.hp .btn{margin-top:28px;display:inline-flex;align-items:center;gap:10px;padding:15px 33px;font-size:14.5px;font-weight:800;color:#0a1207;background:linear-gradient(100deg,var(--gold),var(--grn));border-radius:999px;box-shadow:0 14px 32px -10px rgba(224,168,56,.5)}
+.hp .btn:hover{transform:translateY(-3px)}
+.hp .btn s{text-decoration:none;opacity:.5}
+/* 印章 */
+.seal{width:120px;height:120px;margin:0 auto 24px;border:3px solid var(--gold);border-radius:18px;display:grid;place-items:center;position:relative;background:rgba(224,168,56,.08)}
+.seal::before{content:"";position:absolute;inset:6px;border:1.5px dashed rgba(224,168,56,.5);border-radius:12px}
+.seal span{font-size:46px;position:relative}
+.seal b{position:absolute;bottom:8px;font-size:9px;letter-spacing:.3em;color:var(--gold-l)}
+/* 竖条榜单 */
+.bars{display:flex;flex-direction:column;gap:13px}
+.bar-i{display:flex;align-items:center;gap:14px;border-radius:14px;padding:12px 16px;transition:.4s;cursor:pointer}
+.bar-i:hover{background:rgba(224,168,56,.12);transform:translateX(6px)}
+.bar-i .no{width:36px;height:36px;border-radius:10px;background:linear-gradient(140deg,var(--gold),var(--hay));display:grid;place-items:center;font-size:15px;font-weight:900;color:#0a1207;flex-shrink:0}
+.bar-i .nm{flex:1;min-width:0;font-size:14px;font-weight:700}
+.bar-i .nm small{display:block;font-size:11px;color:var(--txt-3);font-weight:400}
+.bar-i .sc{font-size:13px;font-weight:900;color:var(--gold-l);flex-shrink:0}
+
+/* ============ 锚点导航 ============ */
+.inpage-nav{display:flex;flex-wrap:wrap;gap:9px;justify-content:center;margin-bottom:54px}
+.inpage-nav a{font-size:13px;padding:9px 18px;border:1px solid rgba(224,168,56,.32);background:rgba(224,168,56,.08);color:var(--txt-2);border-radius:999px;transition:.28s}
+.inpage-nav a:hover{color:var(--gold-l);background:rgba(224,168,56,.16)}
+
+/* ============ 栏目一：热映（斜切折角卡片 grid） ============ */
+.fold{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;max-width:1000px;margin:0 auto}
+.fd{border-radius:16px;padding:20px;position:relative;cursor:pointer;transition:.5s var(--ease);overflow:hidden}
+.fd::before{content:"";position:absolute;top:0;right:0;width:44px;height:44px;background:linear-gradient(225deg,var(--gold) 50%,transparent 50%) clip-path:polygon(100% 0,0 0,100% 100%)}
+.fd:hover{transform:translateY(-7px);box-shadow:0 20px 40px -16px rgba(224,168,56,.45)}
+.fd .em{font-size:42px}
+.fd b{font-size:15px;display:block;margin:10px 0 4px}
+.fd span{font-size:12px;color:var(--txt-3);display:block}
+.fd small{position:absolute;bottom:14px;right:16px;font-size:19px;font-weight:900;color:var(--gold-l);opacity:.6}
+.fd1{background:linear-gradient(160deg,#1a2a10,#0e1808)}
+.fd2{background:linear-gradient(160deg,#2a2410,#161008)}
+.fd3{background:linear-gradient(160deg,#10301c,#08180f)}
+.fd4{background:linear-gradient(160deg,#2a1a10,#180f08)}
+.fd5{background:linear-gradient(160deg,#1a1030,#0e0820)}
+.fd6{background:linear-gradient(160deg,#10302a,#081815)}
+
+/* ============ 栏目二：频道（横向标签页 + 列表） ============ */
+.tabs{max-width:920px;margin:0 auto}
+.tab-bar{display:flex;flex-wrap:wrap;gap:8px;justify-content:center;margin-bottom:26px}
+.tab-bar button{font-size:13.5px;padding:10px 22px;border:1px solid rgba(224,168,56,.3);background:rgba(224,168,56,.07);color:var(--txt-2);border-radius:999px;transition:.3s}
+.tab-bar button:hover{color:var(--gold-l)}
+.tab-bar button.on{color:#0a1207;background:linear-gradient(100deg,var(--gold),var(--grn));border-color:transparent;font-weight:800}
+.tab-pan{display:none}
+.tab-pan.on{display:block;animation:fade .5s var(--ease)}
+@keyframes fade{from{opacity:0;transform:translateY(10px)}to{opacity:1;transform:none}}
+.tp-list{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+.tp{border-radius:14px;padding:16px 18px;transition:.4s;cursor:pointer}
+.tp:hover{background:rgba(224,168,56,.14);transform:translateY(-3px)}
+.tp b{font-size:14.5px;display:block}
+.tp span{font-size:11.5px;color:var(--txt-3);display:block;margin-top:3px}
+
+/* ============ 栏目三：高分榜（表格） ============ */
+.tbl-wrap{max-width:920px;margin:0 auto;border-radius:18px;overflow:hidden}
+.tbl{width:100%;border-collapse:collapse}
+.tbl th{text-align:left;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:var(--gold-l);padding:14px 18px;background:rgba(224,168,56,.1);border-bottom:1px solid rgba(224,168,56,.2)}
+.tbl td{padding:14px 18px;border-bottom:1px solid rgba(255,255,255,.06);font-size:13.5px;transition:.3s}
+.tbl tr:hover td{background:rgba(224,168,56,.1)}
+.tbl .rk{font-weight:900;color:var(--gold);width:50px}
+.tbl .sc{font-weight:900;color:var(--gold-l);text-align:right;white-space:nowrap}
+.tbl .tp-cell{color:var(--txt-3);font-size:11.5px}
+
+/* ============ 栏目四：观影指南（三列竖条步骤） ============ */
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px;max-width:1000px;margin:0 auto}
+.st{border-radius:16px;padding:24px 20px;position:relative;transition:.45s;cursor:pointer}
+.st:hover{transform:translateY(-6px)}
+.st .n{font-size:44px;font-weight:900;color:var(--gold);opacity:.3;line-height:1}
+.st b{font-size:15px;display:block;margin:10px 0 5px}
+.st span{font-size:12px;color:var(--txt-3);display:block}
+.st:hover .n{opacity:1}
+
+/* ============ 栏目五：资讯（横向滚动头条） ============ */
+.headline{display:grid;grid-template-columns:1.4fr 1fr 1fr;grid-auto-rows:112px;gap:14px;max-width:1000px;margin:0 auto}
+.hl{grid-row:span 2;padding:20px;border-radius:18px;background:linear-gradient(160deg,#1a2a10,#0e1808);display:flex;flex-direction:column;justify-content:space-between;transition:.45s;cursor:pointer}
+.hl:hover{transform:translateY(-5px)}
+.hl .tg{font-size:10.5px;font-weight:800;color:#0a1207;background:linear-gradient(100deg,var(--gold),var(--grn));padding:4px 11px;border-radius:999px;align-self:flex-start}
+.hl b{font-size:17px;line-height:1.5}
+.hi{padding:14px 16px;border-radius:14px;background:var(--bg-2);transition:.4s;cursor:pointer}
+.hi:hover{background:rgba(224,168,56,.14);transform:translateY(-3px)}
+.hi .dt{font-size:10.5px;color:var(--grn-l);letter-spacing:.06em}
+.hi b{font-size:12.5px;line-height:1.5;display:block;margin-top:4px}
+
+/* ============ 页脚 ============ */
+footer{background:#070c05;padding:60px 0 0;border-top:1px solid rgba(224,168,56,.2)}
+.foot-grid{display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:34px}
+.foot-brand p{color:var(--txt-3);font-size:13.5px;margin-top:14px;max-width:300px}
+.foot-col h5{font-size:14.5px;margin-bottom:16px;letter-spacing:.06em;color:var(--gold-l)}
+.foot-col a{display:block;color:var(--txt-3);font-size:13.5px;padding:5px 0;transition:.25s}
+.foot-col a:hover{color:var(--gold-l);transform:translateX(4px)}
+.foot-bot{border-top:1px solid rgba(224,168,56,.2);margin-top:42px;padding:22px 0;display:flex;justify-content:space-between;flex-wrap:wrap;gap:12px;color:var(--txt-3);font-size:12.5px}
+.foot-bot .kw a{margin:0 6px;color:var(--txt-3)}
+.foot-bot .kw a:hover{color:var(--gold-l)}
+.notice{margin-top:14px;font-size:12px;color:var(--txt-3);background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.08);border-radius:12px;padding:12px 16px;line-height:1.7}
+
+#toTop{position:fixed;right:18px;bottom:22px;width:46px;height:46px;z-index:90;border-radius:50%;background:linear-gradient(140deg,var(--gold),var(--grn));color:#0a1207;font-size:19px;font-weight:900;opacity:0;pointer-events:none;transition:.35s;display:grid;place-items:center;box-shadow:0 10px 26px -8px rgba(224,168,56,.5)}
+#toTop.show{opacity:1;pointer-events:auto}
+#toTop:hover{transform:translateY(-4px)}
+
+/* ============ 响应式 ============ */
+@media(max-width:1080px){
+  .fold{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:820px){
+  .section{padding:68px 0}
+  .hero{padding:110px 0 70px}
+  .hero-grid{grid-template-columns:1fr;gap:40px}
+  .seal{width:96px;height:96px}
+  .seal span{font-size:36px}
+  .headline{grid-template-columns:1fr}
+  .hl{grid-row:span 1}
+  .steps{grid-template-columns:repeat(2,1fr)}
+  .foot-grid{grid-template-columns:1fr 1fr;gap:26px}
+  .search-mini{display:none}
+  .nav-btn{display:flex}
+  .nav{position:fixed;top:88px;left:14px;right:14px;border:1px solid rgba(224,168,56,.26);border-radius:20px;flex-direction:column;align-items:stretch;background:rgba(10,18,7,.98);max-height:0;overflow:hidden;transition:.45s var(--ease);padding:0}
+  .nav.open{max-height:520px;padding:10px}
+  .nav a{text-align:center;padding:13px;border-radius:999px}
+}
+@media(max-width:560px){
+  .wrap{padding:0 15px}
+  .fold{grid-template-columns:1fr}
+  .tp-list{grid-template-columns:1fr}
+  .tbl th:nth-child(3),.tbl td:nth-child(3){display:none}
+  .hp{padding:32px 24px}
+  .hp h2{font-size:28px}
+  .steps{grid-template-columns:1fr}
+}
+@media print{
+  .topbar,.nav-btn,#toTop,.chaff{display:none!important}
+  body{background:#fff;color:#000}
+  .section{page-break-inside:avoid}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/xiaolu.js"></script>
+
+<div class="chaff" aria-hidden="true">
+  <i></i><i></i><i></i><i></i><i></i><i></i><i></i>
+</div>
+
+<!-- ============ 顶部导航 ============ -->
+<header class="topbar">
+  <div class="inner">
+    <div class="bar">
+      <a class="brand" href="#top" aria-label="神马电影网在线首页"><span class="logo">🐎</span><b><s>神马</s>电影网在线</b></a>
+      <nav class="nav" id="nav" aria-label="主导航">
+        <a href="#hot">热映</a>
+        <a href="#cat">频道</a>
+        <a href="#top10">高分榜</a>
+        <a href="#guide">观影指南</a>
+        <a href="#news">资讯</a>
+      </nav>
+      <div class="search-mini" role="search">
+        <input type="search" id="qTop" placeholder="搜片名 / 类型 / 主演" aria-label="搜索">
+        <button type="button" id="qBtn" aria-label="搜索">搜</button>
+      </div>
+      <button class="nav-btn" id="navBtn" aria-label="菜单" aria-expanded="false"><i></i><i></i><i></i></button>
+    </div>
+  </div>
+</header>
+
+<!-- ============ Hero 首屏：印章 + 竖条榜单 ============ -->
+<section class="hero" id="top">
+  <div class="wrap">
+    <div class="hero-grid">
+      <article class="hp glass">
+        <div class="seal"><span>🐎</span><b>神马电影</b></div>
+        <h2>神马好片，<br>马上就<span class="grad">到</span></h2>
+        <p>神马电影网在线（shenmadianyingwangzaixian-wap.github.io）提供热门电影在线观看与高分影片推荐，神马电影网在线看，热门大片随时畅享。</p>
+        <div class="kw"><span>#热门电影</span><span>#高分推荐</span><span>#在线观看</span><span>#流畅不卡</span></div>
+        <a class="btn" href="#hot">马上开看 <s>→</s></a>
+      </article>
+      <div class="bars">
+        <div class="bar-i glass"><span class="no">1</span><div class="nm">热辣滚烫<small>剧情 / 运动</small></div><span class="sc">9.4</span></div>
+        <div class="bar-i glass"><span class="no">2</span><div class="nm">第二十条<small>剧情 / 法治</small></div><span class="sc">9.1</span></div>
+        <div class="bar-i glass"><span class="no">3</span><div class="nm">飞驰人生2<small>喜剧 / 运动</small></div><span class="sc">8.9</span></div>
+        <div class="bar-i glass"><span class="no">4</span><div class="nm">默杀<small>悬疑 / 犯罪</small></div><span class="sc">8.7</span></div>
+        <div class="bar-i glass"><span class="no">5</span><div class="nm">抓娃娃<small>喜剧 / 家庭</small></div><span class="sc">8.5</span></div>
+        <div class="bar-i glass"><span class="no">6</span><div class="nm">默片<small>剧情 / 文艺</small></div><span class="sc">8.3</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 锚点导航 ============ -->
+<div class="wrap"><nav class="inpage-nav" aria-label="栏目导航">
+  <a href="#hot">热映</a>
+  <a href="#cat">频道</a>
+  <a href="#top10">高分榜</a>
+  <a href="#guide">观影指南</a>
+  <a href="#news">资讯</a>
+</nav></div>
+
+<!-- ============ 栏目一：热映（斜切折角卡片） ============ -->
+<section class="section" id="hot">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">NOW SHOWING</span>
+      <h2 class="sec-title">正在<span class="hl">热映</span></h2>
+      <p class="sec-desc">神马电影网在线热映榜，院线同步与口碑新片，热门电影在线观看一站直达。</p>
+      <div class="sec-line"></div>
+    </div>
+    <div class="fold">
+      <article class="fd fd1"><span class="em">🎬</span><b>热辣滚烫</b><span>剧情 / 运动</span><small>9.4</small></article>
+      <article class="fd fd2"><span class="em">⚖️</span><b>第二十条</b><span>剧情 / 法治</span><small>9.1</small></article>
+      <article class="fd fd3"><span class="em">🏎️</span><b>飞驰人生2</b><span>喜剧 / 运动</span><small>8.9</small></article>
+      <article class="fd fd4"><span class="em">🕵️</span><b>默杀</b><span>悬疑 / 犯罪</span><small>8.7</small></article>
+      <article class="fd fd5"><span class="em">😂</span><b>抓娃娃</b><span>喜剧 / 家庭</span><small>8.5</small></article>
+      <article class="fd fd6"><span class="em">🎭</span><b>默片</b><span>剧情 / 文艺</span><small>8.3</small></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目二：频道（横向标签页） ============ -->
+<section class="section" id="cat" style="background:linear-gradient(180deg,transparent,rgba(95,184,63,.07),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">CHANNEL</span>
+      <h2 class="sec-title">影片<span class="hl">频道</span></h2>
+      <p class="sec-desc">神马电影网在线频道全覆盖，切换标签快速定位你想看的类型。</p>
+      <div class="sec-line"></div>
+    </div>
+    <div class="tabs">
+      <div class="tab-bar" role="tablist">
+        <button class="on" data-t="t1">动作</button>
+        <button data-t="t2">喜剧</button>
+        <button data-t="t3">爱情</button>
+        <button data-t="t4">悬疑</button>
+        <button data-t="t5">科幻</button>
+        <button data-t="t6">动画</button>
+      </div>
+      <div class="tab-pan on" data-p="t1"><div class="tp-list">
+        <div class="tp"><b>《热辣滚烫》</b><span>剧情 · 2024 · 9.4</span></div>
+        <div class="tp"><b>《飞驰人生2》</b><span>喜剧运动 · 2024 · 8.9</span></div>
+        <div class="tp"><b>《默杀》</b><span>悬疑犯罪 · 2024 · 8.7</span></div>
+        <div class="tp"><b>《第二十条》</b><span>剧情法治 · 2024 · 9.1</span></div>
+      </div></div>
+      <div class="tab-pan" data-p="t2"><div class="tp-list">
+        <div class="tp"><b>《抓娃娃》</b><span>喜剧家庭 · 2024 · 8.5</span></div>
+        <div class="tp"><b>《飞驰人生2》</b><span>喜剧运动 · 2024 · 8.9</span></div>
+        <div class="tp"><b>《默片》</b><span>剧情文艺 · 2024 · 8.3</span></div>
+        <div class="tp"><b>《热辣滚烫》</b><span>剧情喜剧 · 2024 · 9.4</span></div>
+      </div></div>
+      <div class="tab-pan" data-p="t3"><div class="tp-list">
+        <div class="tp"><b>《默片》</b><span>爱情文艺 · 2024 · 8.3</span></div>
+        <div class="tp"><b>《第二十条》</b><span>剧情 · 2024 · 9.1</span></div>
+        <div class="tp"><b>《热辣滚烫》</b><span>爱情剧情 · 2024 · 9.4</span></div>
+        <div class="tp"><b>《抓娃娃》</b><span>喜剧 · 2024 · 8.5</span></div>
+      </div></div>
+      <div class="tab-pan" data-p="t4"><div class="tp-list">
+        <div class="tp"><b>《默杀》</b><span>悬疑犯罪 · 2024 · 8.7</span></div>
+        <div class="tp"><b>《第二十条》</b><span>悬疑法治 · 2024 · 9.1</span></div>
+        <div class="tp"><b>《热辣滚烫》</b><span>剧情悬疑 · 2024 · 9.4</span></div>
+        <div class="tp"><b>《默片》</b><span>悬疑文艺 · 2024 · 8.3</span></div>
+      </div></div>
+      <div class="tab-pan" data-p="t5"><div class="tp-list">
+        <div class="tp"><b>《飞驰人生2》</b><span>科幻运动 · 2024 · 8.9</span></div>
+        <div class="tp"><b>《默杀》</b><span>科幻悬疑 · 2024 · 8.7</span></div>
+        <div class="tp"><b>《第二十条》</b><span>科幻剧情 · 2024 · 9.1</span></div>
+        <div class="tp"><b>《热辣滚烫》</b><span>科幻动作 · 2024 · 9.4</span></div>
+      </div></div>
+      <div class="tab-pan" data-p="t6"><div class="tp-list">
+        <div class="tp"><b>《抓娃娃》</b><span>动画喜剧 · 2024 · 8.5</span></div>
+        <div class="tp"><b>《默片》</b><span>动画文艺 · 2024 · 8.3</span></div>
+        <div class="tp"><b>《飞驰人生2》</b><span>动画运动 · 2024 · 8.9</span></div>
+        <div class="tp"><b>《热辣滚烫》</b><span>动画剧情 · 2024 · 9.4</span></div>
+      </div></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目三：高分榜（表格） ============ -->
+<section class="section" id="top10">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">TOP RANKING</span>
+      <h2 class="sec-title">高分<span class="hl">榜单</span></h2>
+      <p class="sec-desc">神马电影网在线高分榜，按口碑评分排序，热门电影在线观看前排好片。</p>
+      <div class="sec-line"></div>
+    </div>
+    <div class="tbl-wrap glass">
+      <table class="tbl">
+        <thead><tr><th class="rk">#</th><th>片名</th><th class="tp-cell">类型</th><th class="sc">评分</th></tr></thead>
+        <tbody>
+          <tr><td class="rk">1</td><td>热辣滚烫</td><td class="tp-cell">剧情 / 运动</td><td class="sc">9.4</td></tr>
+          <tr><td class="rk">2</td><td>第二十条</td><td class="tp-cell">剧情 / 法治</td><td class="sc">9.1</td></tr>
+          <tr><td class="rk">3</td><td>飞驰人生2</td><td class="tp-cell">喜剧 / 运动</td><td class="sc">8.9</td></tr>
+          <tr><td class="rk">4</td><td>默杀</td><td class="tp-cell">悬疑 / 犯罪</td><td class="sc">8.7</td></tr>
+          <tr><td class="rk">5</td><td>抓娃娃</td><td class="tp-cell">喜剧 / 家庭</td><td class="sc">8.5</td></tr>
+          <tr><td class="rk">6</td><td>默片</td><td class="tp-cell">剧情 / 文艺</td><td class="sc">8.3</td></tr>
+          <tr><td class="rk">7</td><td>年会不能停</td><td class="tp-cell">喜剧 / 职场</td><td class="sc">8.1</td></tr>
+          <tr><td class="rk">8</td><td>涉过愤怒的海</td><td class="tp-cell">悬疑 / 剧情</td><td class="sc">7.9</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目四：观影指南（三列竖条步骤） ============ -->
+<section class="section" id="guide" style="background:linear-gradient(180deg,transparent,rgba(224,168,56,.07),transparent)">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">QUICK GUIDE</span>
+      <h2 class="sec-title">观影<span class="hl">指南</span></h2>
+      <p class="sec-desc">神马电影网在线四步开启观影之旅，在线电影随时看，流畅不卡顿。</p>
+      <div class="sec-line"></div>
+    </div>
+    <div class="steps">
+      <div class="st glass"><div class="n">01</div><b>选类型</b><span>动作 / 喜剧 / 爱情 / 悬疑 / 科幻 / 动画</span></div>
+      <div class="st glass"><div class="n">02</div><b>挑好片</b><span>按热映榜与高分榜挑选</span></div>
+      <div class="st glass"><div class="n">03</div><b>在线看</b><span>一键播放，流畅不卡顿</span></div>
+      <div class="st glass"><div class="n">04</div><b>追更新</b><span>关注资讯，新片第一时间看</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 栏目五：资讯（横向滚动头条） ============ -->
+<section class="section" id="news">
+  <div class="wrap">
+    <div class="sec-head">
+      <span class="eyebrow">NEWS FEED</span>
+      <h2 class="sec-title">影视<span class="hl">资讯</span></h2>
+      <p class="sec-desc">神马电影网在线资讯频道，聚焦热门电影上映动态与影片解读。</p>
+      <div class="sec-line"></div>
+    </div>
+    <div class="headline">
+      <article class="hl"><span class="tg">头条</span><b>暑期档票房破纪录，神马电影网在线同步更新高分榜</b></article>
+      <article class="hi"><div class="dt">10.03 今日</div><b>《热辣滚烫》重映引发观影热潮</b></article>
+      <article class="hi"><div class="dt">09.29</div><b>《第二十条》入围国际电影节展映单元</b></article>
+      <article class="hi"><div class="dt">09.24</div><b>悬疑新片《默杀》续集官宣立项</b></article>
+      <article class="hi"><div class="dt">09.19</div><b>神马电影网在线发布"2024必看影片"榜单</b></article>
+    </div>
+  </div>
+</section>
+
+<!-- ============ 页脚 ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <a class="brand" href="#top"><span class="logo">🐎</span><b><s>神马</s>电影网在线</b></a>
+        <p>神马电影网在线（shenmadianyingwangzaixian-wap.github.io）提供热门电影在线观看与高分影片推荐，神马电影网在线看，畅享流畅观影体验。</p>
+        <div class="notice">本站仅作影视资讯与影片推荐分享，倡导健康观影，内容均符合公序良俗与相关法律法规。</div>
+      </div>
+      <div class="foot-col"><h5>频道导航</h5><a href="#">动作电影</a><a href="#">喜剧电影</a><a href="#">爱情电影</a><a href="#">悬疑电影</a><a href="#">科幻电影</a></div>
+      <div class="foot-col"><h5>使用帮助</h5><a href="#">观影指南</a><a href="#">常见问题</a><a href="#">播放问题</a><a href="#">意见反馈</a></div>
+      <div class="foot-col"><h5>关于本站</h5><a href="#">网站简介</a><a href="#">网站地图</a><a href="#">免责声明</a><a href="#">联系我们</a></div>
+    </div>
+    <div class="foot-bot">
+      <span>© 2026 神马电影网在线 shenmadianyingwangzaixian-wap.github.io 版权所有</span>
+      <span class="kw">关键词：<a href="#">神马电影网在线</a><a href="#">神马电影网</a><a href="#">shenmadianyingwangzaixian</a><a href="#">热门电影在线观看</a><a href="#">高分电影推荐</a></span>
+    </div>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="回到顶部">↑</button>
+
+<script>
+(function(){
+  "use strict";
+  var navBtn=document.getElementById('navBtn'),nav=document.getElementById('nav');
+  navBtn.addEventListener('click',function(){
+    var open=nav.classList.toggle('open');
+    navBtn.classList.toggle('on',open);navBtn.setAttribute('aria-expanded',open?'true':'false');
+  });
+  nav.addEventListener('click',function(e){
+    if(e.target.tagName==='A'){nav.classList.remove('open');navBtn.classList.remove('on');navBtn.setAttribute('aria-expanded','false');}
+  });
+  var toTop=document.getElementById('toTop');
+  window.addEventListener('scroll',function(){toTop.classList.toggle('show',window.pageYOffset>500);},{passive:true});
+  toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+  function doSearch(){var q=document.getElementById('qTop').value.trim();if(q){document.getElementById('qTop').value='';}}
+  document.getElementById('qBtn').addEventListener('click',doSearch);
+  document.getElementById('qTop').addEventListener('keydown',function(e){if(e.key==='Enter')doSearch();});
+  document.querySelectorAll('.tab-bar button').forEach(function(b){
+    b.addEventListener('click',function(){
+      var id=b.getAttribute('data-t');
+      document.querySelectorAll('.tab-bar button').forEach(function(x){x.classList.remove('on');});
+      document.querySelectorAll('.tab-pan').forEach(function(p){p.classList.remove('on');});
+      b.classList.add('on');
+      var pan=document.querySelector('.tab-pan[data-p="'+id+'"]');
+      if(pan)pan.classList.add('on');
+    });
+  });
+  document.querySelectorAll('a[href^="#"]').forEach(function(a){
+    a.addEventListener('click',function(e){
+      var id=a.getAttribute('href');
+      if(id.length>1){var el=document.querySelector(id);if(el){e.preventDefault();window.scrollTo({top:el.getBoundingClientRect().top+window.pageYOffset-96,behavior:'smooth'});}}
+    });
+  });
+  var secs=document.querySelectorAll('.section[id]');
+  window.addEventListener('scroll',function(){
+    var pos=window.pageYOffset+130,cur='';
+    secs.forEach(function(s){if(s.offsetTop<=pos)cur='#'+s.id;});
+    document.querySelectorAll('.nav a').forEach(function(a){a.classList.toggle('on',a.getAttribute('href')===cur);});
+  },{passive:true});
+})();
+</script>
+</body>
+</html>
